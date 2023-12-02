@@ -8,3 +8,8 @@ export interface Circle {
   x: number;
   y: number;
 }
+
+export interface Pokemon {
+  name: string;
+  power: number;
+}

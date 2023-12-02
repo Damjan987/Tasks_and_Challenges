@@ -7,7 +7,6 @@ const countries = [
 ];
 
 const SelectCountriesTask = () => {
-  const [chosenCountryName, setChosenCountryName] = useState<string>("");
   const [cities, setCities] = useState<string[]>([]);
 
   useEffect(() => {}, []);
